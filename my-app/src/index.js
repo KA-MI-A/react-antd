@@ -1,12 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Drawer from './page/Drawer';
+import Button from './page/Button';
+import Drop from './page/Drop';
+import From from './page/From';
+import Froms from './page/Froms';
+import Menu from './page/Menu';
+import Menus from './page/Menus';
+import Checkbox from './page/Checkbox';
+import Buttons from './page/Buttons';
+import Bigbang from './page/Bigbang';
+import Pagination from './page/Pagination';
+import Layout from './page/Layout';
 import reportWebVitals from './reportWebVitals';
+// import Layout from 'antd/lib/layout/layout';
 
+// From
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Drawer /> */}
+    {/* <Button /> */}
+    {/* <Drop /> */}
+    {/* <Froms /> */}
+    {/* <From /> */}
+    {/* <Menu /> */}
+    {/* <Menus /> */}
+    {/* <Checkbox /> */}
+    {/* <Buttons /> */}
+    {/* <Bigbang /> */}
+    <Layout />
+    {/* <Pagination /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
