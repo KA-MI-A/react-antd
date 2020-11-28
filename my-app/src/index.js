@@ -1,19 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Drawer from './page/Drawer';
-import Button from './page/Button';
-import Drop from './page/Drop';
-import From from './page/From';
+import Drawer from './page/11-27/Drawer';
+import Button from './page/zujian/Button';
+import Drop from './page/zujian/Drop';
+import From from './page/zujian/From';
 import Froms from './page/Froms';
-import Menu from './page/Menu';
+import Menu from './page/zujian/Menu';
 import Menus from './page/Menus';
-import Checkbox from './page/Checkbox';
+import Checkbox from './page/zujian/Checkbox';
 import Buttons from './page/Buttons';
 import Bigbang from './page/Bigbang';
 import Pagination from './page/Pagination';
-import Layout from './page/Layout';
+import Layout from './page/zujian/Layout';
+import Timer from './page/react/Timer';
+import Timers from './page/react/Timers';
+import Modal from './page/11-27/Modal';
+import Markdown from './page/Markdown';
+import Table from './page/11-28/Table';
+import Tables from './page/11-28/Tables';
+
 import reportWebVitals from './reportWebVitals';
+import Todo from './page/react/Todo';
+import Todos from './page/react/Todos';
+import MarkdownEditor from './page/Markdown';
+
 // import Layout from 'antd/lib/layout/layout';
 
 // From
@@ -29,8 +40,18 @@ ReactDOM.render(
     {/* <Checkbox /> */}
     {/* <Buttons /> */}
     {/* <Bigbang /> */}
-    <Layout />
+    {/* <Layout /> */}
     {/* <Pagination /> */}
+    {/* <Timer /> */}
+    {/* <Timers /> */}
+    {/* <Todo /> */}
+    {/* <Todos /> */}
+    {/* <Modal /> */}
+    {/* <MarkdownEditor /> */}
+    {/* <Table /> */}
+    <Tables/>
+
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

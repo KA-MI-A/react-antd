@@ -1,6 +1,6 @@
 import React from 'react';
 import { Drawer, Button } from 'antd';
-import 'antd/dist/antd.css';
+
 
 class bigbang extends React.Component{
     showDrawer=() => {

@@ -2,7 +2,7 @@ import React from 'react';
 // import './indexCss.less';
 import { Drawer, Button } from 'antd';
 import { render } from 'react-dom';
-import 'antd/dist/antd.css';
+
 
 class ButtonText extends React.Component{
   showDrawer=() => {
