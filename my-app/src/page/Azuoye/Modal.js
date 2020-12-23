@@ -6,9 +6,11 @@ import 'antd/dist/antd.css';
 const { Option } = Select;
 const { TextArea } = Input;
 export default class WE extends React.Component {
+    //添加一个class构造函数，然后在该函数中为 this.state 赋初始值：
+    //通过以下方式将 props 传递到父类的构造函数中：
     constructor(props) {
         super(props);
-        this.state = {
+        this.state = {  
             visible: false,
             value3: '数据一',
         };
@@ -41,7 +43,7 @@ export default class WE extends React.Component {
     onFinishFailed = (errorInfo) => {
         console.log('Failed:', errorInfo);
     };
-    // 多选框触发事件
+    // 单选框触发事件
     onChange3 = e => {
         console.log('radio3 checked', e.target.value);
         this.setState({
@@ -158,34 +160,9 @@ export default class WE extends React.Component {
                             label="下拉框"
                             name="dropdown"
                         >
-                            {/* 用map方法来进行循环，onchange执行下拉框函数 */}
-                            <Select style={{ width: 120 }} onChange={this.handleChange}>
-                                {/* <Option value="jack">Jack</Option>
-                               <Option value="lucy">Lucy</Option>
-                               <Option value="disabled">Disabled</Option>
-                                <Option value="Yiminghe">yiminghe</Option> */}
-                                {/* =============================================== */}
-                                {/* { this.arrayData.map((val,key) => ( 
-                                <Option value={val.value} key={key}>
-                                {val.label}
-                                 </Option>
-                                ))} */}
-                                {/* ================================= */}
-                                {this.array.map((e) => (
-                                    <Option value={e.value}>
-                                        {e.label}
-                                    </Option>
-                                ))}
-                            </Select>
+                            
                         </Form.Item>
-                        {/* <Form.Item>
-                            <Button type="primary" htmlType="submit" onClick={this.onClick}>
-                                取消
-                             </Button>
-                            <Button type="primary" htmlType="submit" onClick={this.onClick}>
-                                点击
-                          </Button>
-                        </Form.Item> */}
+                       
                     </Form>
                 </Modal>
             </div>

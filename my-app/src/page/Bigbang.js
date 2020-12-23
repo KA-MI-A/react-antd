@@ -17,4 +17,4 @@ class bigbang extends React.Component{
         )
       }
     }
-    export default bigbang;
+export default bigbang;

@@ -1,7 +1,8 @@
-import React from 'react';
 import { Table, Tag, Space } from 'antd';
-class Top extends React.Component{
- columns = [
+import React, { Component } from 'react';
+
+class DWG extends React.Component{
+     columns = [
   {
     title: 'Name',
     dataIndex: 'name',
@@ -75,9 +76,8 @@ class Top extends React.Component{
 ];
 render(){
     return(
-        <Table columns={this.columns} dataSource={this.data} />
+<Table columns={this.columns} dataSource={this.data} />
     )
 }
-
 }
-export default Top;
+export default DWG
