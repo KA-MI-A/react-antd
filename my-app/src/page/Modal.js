@@ -1,4 +1,5 @@
 import React from 'react';
+import './../App.css';
 import { Form, Input, Button, Checkbox, Radio, InputNumber, Select, Modal } from 'antd';
 import { render } from 'react-dom';
 import 'antd/dist/antd.css';
@@ -10,7 +11,7 @@ export default class WE extends React.Component {
     //通过以下方式将 props 传递到父类的构造函数中：
     constructor(props) {
         super(props);
-        this.state = {  
+        this.state = {
             visible: false,
             value3: '数据一',
         };
@@ -75,7 +76,7 @@ export default class WE extends React.Component {
     }
     render() {
         const { value3 } = this.state;
-        console.log('===>',value3)
+        console.log('===>', value3)
         // Modal按钮点击事件
         return (
             <div>
@@ -132,7 +133,7 @@ export default class WE extends React.Component {
                             label="单选框"
                             name="radio"
                         >
-                             {/* 用map方法来进行循环array里的数组，onchange执行下拉框函数 */}
+                            {/* 用map方法来进行循环array里的数组，onchange执行下拉框函数 */}
                             <Select style={{ width: 300 }} onChange={this.handleChange}>
                                 {this.array.map((val, key) => (
                                     <Option value={val.value} key={key}>
@@ -160,12 +161,11 @@ export default class WE extends React.Component {
                             label="下拉框"
                             name="dropdown"
                         >
-                            
                         </Form.Item>
-                       
                     </Form>
                 </Modal>
             </div>
+
         )
     }
 }

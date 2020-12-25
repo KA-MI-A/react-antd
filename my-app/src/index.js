@@ -1,32 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import Drawer from './page/11-27/Drawer';
-// import Button from './page/zujian/Button';
-// import Drop from './page/zujian/Drop';
-// import From from './page/zujian/From';
-// import Froms from './page/Froms';
-// import Menu from './page/zujian/Menu';
-// import Menus from './page/Menus';
-// import Checkbox from './page/zujian/Checkbox';
-// import Buttons from './page/Buttons';
-// import Bigbang from './page/Bigbang';
-// import Pagination from './page/Pagination';
-// import Layout from './page/zujian/Layout';
-// import Timer from './page/react/Timer';
-// import Timers from './page/react/Timers';
-// import Modal from './page/11-27/Modal';
-// import Markdown from './page/Markdown';
-// import Table from './page/11-28/Table';
-// import Tables from './page/11-28/Tables';
-// import Drawer from './page/Azuoye/Drawer';
 import From from './page/Azuoye/From';
-import Modal from './page/Azuoye/Modal';
+import Modal from './page/Modal';
 import Table from './page/Azuoye/Table';
 import Tables from './page/Azuoye/Tables';
 import tihuan from './page/tihuan';
 import Drawers from './page/Azuoye/Drawers';
-import Yemian from './page/Azuoye/Yemian';
+import DrewerForm from './page/DrewerForm';
+import SiderDemo from './page/SiderDemo';
 
 
 
@@ -40,6 +22,8 @@ import MarkdownEditor from './page/Markdown';
 // From
 ReactDOM.render(
   <React.StrictMode>
+    <SiderDemo/>
+    {/* <DrawerFrom /> */}
     {/* <Drawer /> */}
     {/* <Button /> */}
     {/* <Drop /> */}
@@ -51,16 +35,14 @@ ReactDOM.render(
     {/* <Buttons /> */}
     {/* <Bigbang /> */}
     {/* <Layout /> */}
-    {/* <Pagination /> */}
     {/* <Timer /> */}
     {/* <Timers /> */}
     {/* <Todo /> */}
     {/* <Todos /> */}
     {/* <Modal /> */}
-    {/* <MarkdownEditor /> */}
     {/* <Table /> */}
     {/* <EDG/> */}
-    <Tables/>
+    {/* <Tables/> */}
     {/* <tihuan/> */}
     {/* <Drawers/> */}
     {/* <Yemian/> */}
