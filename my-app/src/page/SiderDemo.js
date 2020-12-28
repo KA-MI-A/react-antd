@@ -10,7 +10,7 @@ import {
 } from '@ant-design/icons';
 import DrewerForm from './DrewerForm';
 import TableData from './TableData';
-import Modal from './Modal';
+import Modal from './Azuoye/Modal';
 import styles from './indexCSS.css'
 import 'antd/dist/antd.css';
 const { Header, Sider, Content } = Layout;
