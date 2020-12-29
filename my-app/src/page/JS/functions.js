@@ -1,4 +1,3 @@
-
 function map(f, a) {
     let result = []; // 创建一个数组
     let i; // 声明一个值，用来循环
